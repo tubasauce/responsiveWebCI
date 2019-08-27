@@ -92,19 +92,6 @@ public  class TestBase  {
     }
     
 
-    
-
-    @DataProvider(name = "hardCodedBrowsersemulator", parallel = true)
-       	    public static Object[][] sauceBrowserDataProviderEmulator(Method testMethod) {
-       	        return new Object[][]{
-       	        	
-       	         new Object[]{"Android GoogleAPI Emulator", "portrait", "Chrome", "8.0", "Android"},
-       	             
-       	        };
-       	    }
-    
-    
-
     /**
      * @return the {@link WebDriver} for the current thread
      */
@@ -163,66 +150,6 @@ public  class TestBase  {
         sessionId.set(id);
     }
     
-
-    protected void createDriverlinux(String browser, String version, String os, String methodName)
-               throws MalformedURLException, UnexpectedException {
-    	
-    	
-    	  
-    	//  String prerunFile = "disablewarnonfraudsites";
-    	  
-    	/**
-    	  HashMap<String, String> prerunParams = new HashMap<String, String>();         
-          prerunParams.put("executable", "sauce-storage:Ianprerun");
-          prerunParams.put("background","false");
-          prerunParams.put("timeout","60");
-    	 **/
-    	
-    	/**
-      JSONObject obj = new JSONObject();
-      obj.put("executable","sauce-storage:Ianprerun");
-      LinkedList<String> list = new LinkedList<String>();
-      list.add("/S");
-      list.add("-a");
-      list.add("-q");
-      obj.put("args",list);
-      obj.put("background","false");     
-      System.out.print("\nHere is the arguments for prerun on the VM:\n" +obj);
-    **/
-    	
-    	 JSONObject obj = new JSONObject();
-    	// obj.put("executable","sauce-storage:preruntest.sh");
-    	 obj.put("executable","https://gist.githubusercontent.com/iflanagan/5af7ff6027ff9d0f3dbb3bea55d670b9/raw/17c4c6a908080af704478f17f5ef750d575cbcdb/preruntest.sh");
-    	 obj.put("background","false");
-      
-    	
-           DesiredCapabilities capabilities = new DesiredCapabilities();
-
-  
-           // set desired capabilities to launch appropriate browser on Sauce
-           capabilities.setCapability(CapabilityType.BROWSER_NAME, browser);
-           capabilities.setCapability(CapabilityType.VERSION, version);
-           capabilities.setCapability(CapabilityType.PLATFORM, os);
-           capabilities.setCapability("name", methodName);
-           capabilities.setCapability("extendedDebugging", true);
-           // commented out line below
-           capabilities.setCapability("prerun", obj);
-          
-
-           if (buildTag != null) {
-               capabilities.setCapability("build", buildTag);
-           }
-
-    // Launch remote browser and set it as the current thread
-           webDriver.set(new RemoteWebDriver(
-                   new URL("https://" + username + ":" + accesskey + "@ondemand.saucelabs.com:443/wd/hub"),
-                   capabilities));
-
-           // set current sessionId
-           String id = ((RemoteWebDriver) getWebDriver()).getSessionId().toString();
-           sessionId.set(id);
-
-   }
 
 
 

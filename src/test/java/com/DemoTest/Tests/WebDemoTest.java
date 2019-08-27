@@ -23,32 +23,6 @@ public class WebDemoTest extends TestBase {
 	
 
 
-	 @Test(dataProvider = "hardCodedBrowserslinux")
-	    public void LoginLinux(String browser, String version, String os, Method method)
-	            throws MalformedURLException, InvalidElementStateException, UnexpectedException {
-	    	
-		    System.out.println("\nStarting Login Function for Dataprovider HardCodedBrowsersLinux");
-	    	Boolean value = true;
-
-	        //create webdriver session
-	    	
-	        this.createDriverlinux(browser, version, os, method.getName());
-	        WebDriver driver = this.getWebDriver();
-
-	        System.out.println("\nStarting web page");
-	        this.annotate("Visiting sauce labs demo page...");
-	        WebDemoPage page = WebDemoPage.visitPage(driver);
-	        
-	        this.annotate("Login Test");
-	        Boolean returnvalue = page.Login("standard_user", "secret_sauce");
-	        
-	        this.annotate("Asserting the test: Login Test: result");
-	        Assert.assertEquals(value,returnvalue);
-
-	             
-	    }
-
-
 	 @Test(dataProvider = "hardCodedBrowsers")
 	    public void Login(String browser, String version, String os, Method method)
 	            throws MalformedURLException, InvalidElementStateException, UnexpectedException {
