@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-21T20:40:40Z" name="Command line suite" finished-at="2019-08-21T20:41:04Z" duration-ms="23477">
+    <groups>
+    </groups>
+    <test started-at="2019-08-21T20:40:40Z" name="Command line test" finished-at="2019-08-21T20:41:04Z" duration-ms="23477">
+      <class name="com.DemoTest.Tests.WebDemoTest">
+        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701]" started-at="2019-08-21T13:40:40Z" name="Login" data-provider="hardCodedBrowsers" finished-at="2019-08-21T13:41:00Z" duration-ms="19823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest -2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.Login(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701]" started-at="2019-08-21T13:40:40Z" name="Login" data-provider="hardCodedBrowsers" finished-at="2019-08-21T13:41:00Z" duration-ms="19751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest -1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.Login(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701]" started-at="2019-08-21T13:40:40Z" name="Login" data-provider="hardCodedBrowsers" finished-at="2019-08-21T13:41:02Z" duration-ms="22060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.Login(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701]" started-at="2019-08-21T13:40:40Z" name="Login" data-provider="hardCodedBrowsers" finished-at="2019-08-21T13:41:04Z" duration-ms="23234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest -2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.Login(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701]" started-at="2019-08-21T13:40:40Z" name="Login" data-provider="hardCodedBrowsers" finished-at="2019-08-21T13:41:02Z" duration-ms="21818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest -1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.Login(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701]" started-at="2019-08-21T13:40:40Z" name="Login" data-provider="hardCodedBrowsers" finished-at="2019-08-21T13:40:58Z" duration-ms="17986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.Login(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701]" started-at="2019-08-21T13:40:58Z" name="tearDown" finished-at="2019-08-21T13:40:59Z" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=WebDemoTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701]" started-at="2019-08-21T13:41:00Z" name="tearDown" finished-at="2019-08-21T13:41:00Z" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=WebDemoTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701]" started-at="2019-08-21T13:41:00Z" name="tearDown" finished-at="2019-08-21T13:41:00Z" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=WebDemoTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701]" started-at="2019-08-21T13:41:02Z" name="tearDown" finished-at="2019-08-21T13:41:02Z" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=WebDemoTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701]" started-at="2019-08-21T13:41:02Z" name="tearDown" finished-at="2019-08-21T13:41:03Z" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=WebDemoTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701]" started-at="2019-08-21T13:41:04Z" name="tearDown" finished-at="2019-08-21T13:41:04Z" duration-ms="224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=WebDemoTest.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@1a04f701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DemoTest.Tests.WebDemoTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
