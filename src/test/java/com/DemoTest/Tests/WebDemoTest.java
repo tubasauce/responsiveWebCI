@@ -60,6 +60,7 @@ public class WebDemoTest extends TestBase {
 	    	
 	    	// Added comment to sync file 
 
+		System.out.println("\nConnecting the SauceLabs EU Data Center, we are about to run our tests.");
 	    	
 	    	 System.out.println("\nCreate an instance of the driver");
 	        //create webdriver session
