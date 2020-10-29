@@ -126,7 +126,6 @@ public  class TestBase  {
         // set desired capabilities to launch appropriate browser on Sauce
         capabilities.setCapability(CapabilityType.BROWSER_NAME, browser);
         if (browser.equals("chrome")) {
-            capabilities.setCapability("extendedDebugging", true);
             capabilities.setCapability("capturePerformance", true);
         }
         capabilities.setCapability(CapabilityType.VERSION, version);
